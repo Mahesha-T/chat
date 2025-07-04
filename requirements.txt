@@ -1,3 +1,10 @@
+# Essential build tools
+setuptools>=42
+wheel
+# Optional: pip upgrade
+pip>=23.2
+
+# Your dependencies
 streamlit==1.35.0
 streamlit-webrtc==0.47.0
 speechrecognition==3.10.1
@@ -8,6 +15,6 @@ pyarrow>=1.0
 langchain==0.2.0
 langchain-community==0.2.0
 pydub
-#streamlit-js-eval
 langchain-ollama
 soundfile
+PyAudio
